@@ -1,0 +1,30 @@
+body {
+    background: lightblue;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.space {
+    height: 10vh;
+}
+
+.card {
+    background: #fdfdfd;
+    border-radius: 4px;
+    height: 85vh;
+    width: 85vw;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-align: center;
+}
+
+img.birthday {
+    max-height: 40vh;
+    max-width: 40vh;
+}
+
+.muted {
+    opacity: 0.8;
+}
